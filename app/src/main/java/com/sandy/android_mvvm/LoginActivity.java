@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
-        /*populateAutoComplete();*/
+
 
         mPasswordView = (EditText) findViewById(R.id.password);
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
@@ -60,8 +60,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        // Reset errors.
-        mEmailView.setError(null);
+        //mEmailView.setError(null);
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
