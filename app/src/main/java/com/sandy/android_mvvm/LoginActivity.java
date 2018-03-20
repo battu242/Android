@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
 
-
+  //comments
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
